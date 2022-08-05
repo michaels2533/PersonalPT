@@ -631,6 +631,7 @@ progress {
   margin-left: auto;
 }
 
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -11221,7 +11222,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
   }
 
   .fs-2 {
@@ -11286,7 +11287,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  background: linear-gradient(45deg, #1376AD, #4ca2d2) !important;
 }
 
 .font-alt {
@@ -11319,7 +11320,7 @@ section {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:active {
-  color: #2937f0;
+  color: #1376AD;
 }
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
@@ -11414,6 +11415,13 @@ section.cta:before {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
+}
+
+section.px-5 {
+  background-image: url("frontImg.jpg");
+  background-size:cover; 
+  padding-top: 6.5rem;
+  padding-bottom: 5rem;
 }
 
 .icon-feature {
@@ -11530,9 +11538,20 @@ footer a:hover, footer a:active, footer a:focus {
 
 .masthead {
   background-color: #f8f9fa;
-  padding-top: 9.5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
 }
+
+.masthead .container-img {
+  height:100%; 
+  width:100%; 
+}
+
+.masthead .fit-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .masthead .masthead-device-mockup {
   display: flex;
   align-items: center;
@@ -11567,6 +11586,11 @@ footer a:hover, footer a:active, footer a:focus {
   fill: #2937f0;
   top: 15%;
   right: 10%;
+}
+
+.masthead .fit-picture {
+  width:100px;
+  height:100px;
 }
 .masthead .masthead-device-mockup .device-wrapper {
   max-width: 10rem;
