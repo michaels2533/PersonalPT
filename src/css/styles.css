@@ -11468,6 +11468,13 @@ section.px-5 {
   max-width: 10rem;
 }
 
+.lead-e {
+  font-size: 1.08rem; 
+  font-weight: 300; 
+}
+
+
+
 @media (min-width: 576px) {
   .features-device-mockup .circle {
     width: 70%;
@@ -11542,7 +11549,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .masthead .container-img {
-  height:100%; 
+  height:50vh; 
   width:100%; 
 }
 
