@@ -79,7 +79,7 @@
                     </div>
                     <div class="col-lg-8">
                         <p class = "lead-e fw-normal text-muted">
-                            Mariusz Stawowski arrived in the Tri-Cities about twenty years ago after receiving his Masters in Physical Therapy in. The passion and drive for his profession resulted in him launching his own practice in downtown Richland, Washington. Additionally, he also became board certified in Orthopedic Physical Therapy to further broaden his expertise in the field.  
+                            Mariusz Stawowski arrived in the Tri-Cities about twenty years ago after receiving his Masters in Physical Therapy. The passion and drive for his profession resulted in him launching his own practice in downtown Richland, Washington. Additionally, he also became board certified in Orthopedic Physical Therapy to further broaden his expertise in the field.  
                             What differentiates Mariusz from other practices in the area is his personable and engaging approach he administers when working with his patients. 
                             He attributes this to having worked in various parts of the world, to name a few: Poland, Germany and New York City. Mariusz takes pride in developing and implementing a treatment plan that specifically caters to the needs of his patients.
                         </p>
@@ -133,29 +133,29 @@
                         <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body border-0 p-4">
-                        <form name ="contact" data-netlify ="true">
+                        <form name ="contact" method = "POST" data-netlify ="true">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." />
                                 <label for="name">Full name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com"/>
                                 <label for="email">Email address</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"/>
                                 <label for="phone">Phone number</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
