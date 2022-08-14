@@ -133,29 +133,31 @@
                         <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body border-0 p-4">
-                        <form name ="contact" method = "POST" data-netlify ="true">
+                        <form name = "contact" method = "POST" data-netlify ="true">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." />
+                                <input class="form-control" name="name" type="text" placeholder="Enter your name..." />
                                 <label for="name">Full name</label>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com"/>
+                                <input class="form-control" name="email" type="email" placeholder="name@example.com"/>
                                 <label for="email">Email address</label>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"/>
+                                <input class="form-control" name="phone" type="tel" placeholder="(123) 456-7890"/>
                                 <label for="phone">Phone number</label>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
+                                <textarea class="form-control" name="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
                                 <label for="message">Message</label>
                             </div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg" id="submitButton" type="submit">Submit</button></div>
+                            <div class="d-grid">
+                                <button class="btn btn-primary rounded-pill btn-lg" id="submitButton" type="submit">Submit</button>
+                            </div>
                         </form>
                     </div>
                 </div>
