@@ -1,7 +1,7 @@
 const form = document.getElementById('form');
 const result = document.getElementById('result');
 
-
+//Form Validation via Web3Forms 
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
