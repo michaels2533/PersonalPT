@@ -32,7 +32,7 @@ form.addEventListener('submit', function(e) {
   const formData = new FormData(form);
   const object = Object.fromEntries(formData);
   const json = JSON.stringify(object);
-  result.innerHTML = "Please wait..."
+  result.innerHTML = "Sending Message..."
 
     fetch('https://api.web3forms.com/submit', {
             method: 'POST',
@@ -53,7 +53,7 @@ form.addEventListener('submit', function(e) {
         })
         .catch(error => {
             console.log(error);
-            result.innerHTML = "Something went wrong!";
+            result.innerHTML = "Error Occured";
         })
         .then(function() {
             form.reset();
